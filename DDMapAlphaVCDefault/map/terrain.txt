@@ -1,4 +1,5 @@
 terrain = 17
+# Note that costs below 1 may result in somewhat strange pathfinding results. It is thus preferable to increase global movement speed rather than reduce terrain costs below 1
 
 categories =  {
 
@@ -16,7 +17,6 @@ categories =  {
 		movement_cost = 1.0
 		is_water = yes
 		color = { 0 0 200 }
-		inland_Sea = yes
 	}
 
 	arctic = {
@@ -128,6 +128,13 @@ categories =  {
 		supply_limit = 2
 		bottleneck_chance = 5
 	}	
+	
+	savanna = {
+		movement_cost = 1.1
+		color = { 255 106 0 }
+		supply_limit = 4
+		bottleneck_chance = 6
+	}
 }
 
 text_0	= { type = plains    color = { 	 0	 } priority = 	0	 }
