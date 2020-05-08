@@ -146,8 +146,10 @@ text_10	= { type = mountain color = { 	10	 } priority = 	10	 }
 text_11	= { type = mountain color = { 	11	 } priority = 	11	 }
 
 text_12	= { type = jungle color = { 	12	 } priority = 	12	 }
-text_13	= { type = coastal_desert color = { 	13	 } priority = 	13	 }
+# CK2+ remap terrain type follows: Marsh
+text_13	= { type = marsh color = { 	13	 } priority = 	13	 }
 text_14	= { type = coastal_desert color = { 	14	 } priority = 	14	 }
+# The following does actually mean water:
 text_15	= { type = coastal_desert color = { 	15	 } priority = 	15	 }
 
 # Need to be here to identify forest
